@@ -1,7 +1,7 @@
 require('dotenv').config()
 require('@nomiclabs/hardhat-ethers')
-require('@eth-optimism/plugins/hardhat/compiler')
-require('@eth-optimism/plugins/hardhat/ethers')
+require('@ethereum-pessimism/plugins/hardhat/compiler')
+require('@ethereum-pessimism/plugins/hardhat/ethers')
 
 module.exports = {
   networks: {
